@@ -1,0 +1,85 @@
+{
+  "common": {
+    "share": "Partager",
+    "exportPdf": "Exporter PDF",
+    "edit": "Modifier",
+    "linkedin": "LinkedIn",
+    "sections": "Sections",
+    "signedAt": "Signé le :",
+    "language": "Langue",
+    "english": "Anglais",
+    "french": "Français",
+    "translating": "Traduction en cours..."
+  },
+  "header": {
+    "projectProposal": "Proposition de Projet",
+    "buildAppHireTeam": "CRÉER UNE APP | EMBAUCHER UNE ÉQUIPE",
+    "tagline": "12+ ans, 99% de satisfaction client, 1000+ projets livrés",
+    "presentedTo": "Présenté à",
+    "presentedBy": "Présenté par"
+  },
+  "contact": {
+    "contactUs": "Contactez-nous",
+    "website": "Site web",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "hqAddress": "Adresse du siège",
+    "addressLine1": "Bureau n° 2228, 2e étage, J.K Infotech,",
+    "addressLine2": "Hinjewadi - Phase 1, près de Ruby Hall Clinic,",
+    "addressLine3": "Pune - 411057"
+  },
+  "proposal": {
+    "companyOverview": "Présentation de l'entreprise",
+    "applicationDevelopmentDetails": "Détails du développement de l'application",
+    "applicationDetails": "Détails de l'application",
+    "scopeOfWork": "Portée des travaux",
+    "techStackEstimation": "Technologies et estimation",
+    "detailedPhaseBreakdown": "Détail des phases",
+    "phaseBreakdown": "Détail des phases",
+    "postLaunchSupport": "Support post-lancement",
+    "ongoingMaintenanceSupport": "Maintenance et support continu",
+    "ongoingMaintenance": "Maintenance continue",
+    "projectTeam": "Équipe du projet",
+    "deploymentStructure": "Structure de déploiement",
+    "sourceCodeOwnership": "Propriété du code source",
+    "terminationExit": "Résiliation et sortie",
+    "invoiceTerms": "Conditions de facturation",
+    "termsConditions": "Termes et conditions",
+    "signatures": "Signatures",
+    "contactUs": "Contactez-nous",
+    "presentedBy": "Présenté par",
+    "preparedFor": "Préparé pour"
+  },
+  "techStack": {
+    "frontend": "Interface utilisateur",
+    "backend": "Serveur",
+    "database": "Base de données",
+    "uiux": "UI/UX",
+    "estimation": "Estimation"
+  },
+  "table": {
+    "milestone": "Étape",
+    "description": "Description",
+    "duration": "Durée",
+    "cost": "Coût",
+    "gst": "TVA",
+    "totalCost":"coût total",
+    "timeline":"chronologie"
+  },
+  "signature": {
+    "forPrometteur": "Pour Prometteur Solutions",
+    "for": "Pour",
+    "awaitingCompany": "En attente de la signature de l'entreprise",
+    "awaitingClient": "En attente de la signature du client",
+    "yourSignature": "Votre signature"
+  },
+  "errors": {
+    "proposalNotFound": "Proposition non trouvée",
+    "proposalLinkExpired": "Ce lien de proposition a peut-être expiré ou n'est pas valide.",
+    "goToDashboard": "Aller au tableau de bord"
+  },
+  "staticContent": {
+    "invoiceTerms": "<ul><li><strong>Net 7 jours</strong> à partir de la date de facturation</li><li><strong>Méthodes de paiement :</strong> Virement bancaire / Virement bancaire</li><li><strong>Période de révision :</strong> Le client dispose de 10 jours ouvrables pour examiner les livrables d'étapes et fournir l'acceptation ou les commentaires. Le paiement suit l'acceptation selon les modalités nettes.</li><li><strong>Paiements en retard :</strong> Intérêt de 1,5% par mois sur les soldes en souffrance ; le travail peut être suspendu pour les retards de 30+ jours.</li></ul>",
+    "termsAndConditions": "<h4><strong>Gestion des mots de passe :</strong></h4><ul><li>Lors de l'achèvement du projet et de la livraison de l'accès, les clients doivent immédiatement changer tous les mots de passe.</li><li>Prometteur Solutions ne sera pas responsable des problèmes post-livraison, sauf si un Contrat de Maintenance Annuel (CMA) est en place.</li></ul><h4><strong>Modifications induites par le client :</strong></h4><ul><li>Toute modification majeure apportée par le client sans en informer Prometteur Solutions sera de la responsabilité du client pour tout problème résultant.</li></ul><h4><strong>Fourniture des actifs :</strong></h4><ul><li>Les clients doivent fournir tous les actifs nécessaires, y compris les logos, les schémas de couleurs et les traductions, comme demandé par l'équipe de développement.</li></ul><h4><strong>Commentaires rapides :</strong></h4><ul><li>Des commentaires rapides de la part du client sont cruciaux pour éviter les retards de projet.</li></ul><h4><strong>Demandes de modification (DM) :</strong></h4><ul><li>Les DM seront documentées et traitées à la fin de l'étape actuelle.</li><li>Les DM seront facturées séparément, payables à réception de la facture.</li></ul><h4><strong>Intégrations d'API tierces :</strong></h4><ul><li>Les clients doivent fournir toute la documentation et les informations de support requises.</li><li>L'assistance de notre équipe sera payante ; des conseils seront fournis.</li></ul><h4><strong>Heures de support :</strong></h4><ul><li>Support le week-end et post-heures de travail : <strong>35$/heure</strong></li></ul><h4><strong>Taux horaires des développeurs :</strong></h4><ul><li>Les taux sont sujets à une révision annuelle de <strong>10%</strong>.</li></ul><p>En respectant ces directives, nous assurons une exécution de projet fluide et un support à long terme pour vos applications et systèmes.</p>"
+  }
+}

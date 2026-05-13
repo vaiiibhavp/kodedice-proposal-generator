@@ -1,0 +1,85 @@
+{
+  "common": {
+    "share": "Share",
+    "exportPdf": "Export PDF",
+    "edit": "Edit",
+    "linkedin": "LinkedIn",
+    "sections": "Sections",
+    "signedAt": "Signed:",
+    "language": "Language",
+    "english": "English",
+    "french": "French",
+    "translating": "Translating..."
+  },
+  "header": {
+    "projectProposal": "Project Proposal",
+    "buildAppHireTeam": "BUILD APP | HIRE TEAM",
+    "tagline": "12+ years, 99% client satisfaction, 1000+ projects delivered",
+    "presentedTo": "Presented to",
+    "presentedBy": "Presented by"
+  },
+  "contact": {
+    "contactUs": "Contact Us",
+    "website": "Website",
+    "phone": "Phone",
+    "email": "E-mail",
+    "hqAddress": "HQ address",
+    "addressLine1": "Office no. 2228, 2nd Floor, J.K Infotech,",
+    "addressLine2": "Hinjewadi - Phase 1, Near Ruby Hall Clinic,",
+    "addressLine3": "Pune - 411057"
+  },
+  "proposal": {
+    "companyOverview": "Company Overview",
+    "applicationDevelopmentDetails": "Application Development Details",
+    "applicationDetails": "Application Details",
+    "scopeOfWork": "Scope of Work",
+    "techStackEstimation": "Tech Stack & Estimation",
+    "detailedPhaseBreakdown": "Detailed Phase Breakdown",
+    "phaseBreakdown": "Phase Breakdown",
+    "postLaunchSupport": "Post Launch Support",
+    "ongoingMaintenanceSupport": "Ongoing Maintenance and Support",
+    "ongoingMaintenance": "Ongoing Maintenance",
+    "projectTeam": "Project Team",
+    "deploymentStructure": "Deployment Structure",
+    "sourceCodeOwnership": "Source Code Ownership",
+    "terminationExit": "Termination & Exit",
+    "invoiceTerms": "Invoice Terms",
+    "termsConditions": "Terms & Conditions",
+    "signatures": "Signatures",
+    "contactUs": "Contact Us",
+    "presentedBy": "Presented By",
+    "preparedFor": "Prepared for"
+  },
+  "techStack": {
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Database",
+    "uiux": "UI/UX",
+    "estimation": "Estimation"
+  },
+  "table": {
+    "milestone": "Milestone",
+    "description": "Description",
+    "duration": "Duration",
+    "cost": "Cost",
+    "gst": "GST",
+    "totalCost": "Total Cost",
+    "timeline":"Timeline"
+  },
+  "signature": {
+    "forPrometteur": "For Prometteur Solutions",
+    "for": "For",
+    "awaitingCompany": "Awaiting company signature",
+    "awaitingClient": "Awaiting client signature",
+    "yourSignature": "Your Signature"
+  },
+  "errors": {
+    "proposalNotFound": "Proposal Not Found",
+    "proposalLinkExpired": "This proposal link may have expired or is invalid.",
+    "goToDashboard": "Go to Dashboard"
+  },
+  "staticContent": {
+    "invoiceTerms": "<ul><li><strong>Net 7 days</strong> from invoice date</li><li><strong>Payment methods:</strong> Wire transfer / Bank transfer</li><li><strong>Review Period:</strong> The client has 10 business days to review milestone deliverables and provide acceptance or feedback. Payment follows acceptance per net terms.</li><li><strong>Late payments:</strong> 1.5% per month interest on overdue balances; work may be paused for 30+ day delinquencies.</li></ul>",
+    "termsAndConditions": "<h4><strong>Password Management:</strong></h4><ul><li>Upon project completion and access delivery, clients must immediately change all passwords.</li><li>Prometteur Solutions will not be responsible for any issues post-delivery unless an Annual Maintenance Contract (AMC) is in place.</li></ul><h4><strong>Client-Induced Changes:</strong></h4><ul><li>Any major changes made by the client without notifying Prometteur Solutions will be the client's responsibility for any resulting issues.</li></ul><h4><strong>Asset Provision:</strong></h4><ul><li>Clients must provide all necessary assets including logos, color schemes, and translations as requested by the development team.</li></ul><h4><strong>Timely Feedback:</strong></h4><ul><li>Timely feedback from the client is crucial to avoid project delays.</li></ul><h4><strong>Change Requests (CR):</strong></h4><ul><li>CRs will be documented and addressed at the end of the current milestone.</li><li>CRs will be billed separately, payable upon invoice receipt.</li></ul><h4><strong>Third-Party API Integrations:</strong></h4><ul><li>Clients must provide all required documentation and support information.</li><li>Assistance from our team will be chargeable; guidance will be provided.</li></ul><h4><strong>Support Hours:</strong></h4><ul><li>Weekend and post-working-hour support: <strong>$35/hour</strong></li></ul><h4><strong>Developer Hourly Rates:</strong></h4><ul><li>Rates are subject to an annual revision of <strong>10%</strong>.</li></ul><p>By adhering to these guidelines, we ensure smooth project execution and long-term support for your applications and systems.</p>"
+  }
+}
