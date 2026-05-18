@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://praposal-builder-api.prometteur.in';
+const API_BASE_URL = 'https://praposal-builder-api.kodedice.com';
 
 export interface UploadResponse {
   success: boolean;

@@ -1,5 +1,5 @@
 import { Mail, Phone, MapPin, Globe } from 'lucide-react';
-import { PrometteurLogo } from '@/components/PrometteurLogo';
+import { KodediceLogo } from '@/components/PrometteurLogo';
 
 export function Footer() {
   return (
@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid gap-8 md:grid-cols-3">
           {/* Company Info */}
           <div>
-            <PrometteurLogo size={36} className="mb-4" />
+            <KodediceLogo size={80} className="mb-4" />
             <p className="text-xs text-sidebar-foreground/70 uppercase tracking-wider mb-2">
               BUILD APP | HIRE TEAM
             </p>
@@ -23,8 +23,8 @@ export function Footer() {
             <div className="space-y-3 text-sm text-sidebar-foreground/70">
               <div className="flex items-center gap-2">
                 <Globe className="h-4 w-4 text-sidebar-primary" />
-                <a href="https://www.prometteursolutions.com" target="_blank" rel="noopener noreferrer" className="hover:text-sidebar-primary transition-colors">
-                  www.prometteursolutions.com
+                <a href="https://www.kodedice.com" target="_blank" rel="noopener noreferrer" className="hover:text-sidebar-primary transition-colors">
+                  www.kodedice.com
                 </a>
               </div>
               <div className="flex items-center gap-2">
@@ -33,8 +33,8 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-sidebar-primary" />
-                <a href="mailto:sales@prometteursolutions.com" className="hover:text-sidebar-primary transition-colors">
-                  sales@prometteursolutions.com
+                <a href="mailto:sales@kodedice.com" className="hover:text-sidebar-primary transition-colors">
+                  sales@kodedice.com
                 </a>
               </div>
             </div>
@@ -55,7 +55,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 pt-6 border-t border-sidebar-border text-center text-sm text-sidebar-foreground/60">
-          © {new Date().getFullYear()} Prometteur Solutions Pvt. Ltd. All rights reserved.
+          © {new Date().getFullYear()} Kodedice. All rights reserved.
         </div>
       </div>
     </footer>

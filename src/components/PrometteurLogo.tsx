@@ -1,24 +1,27 @@
-import prometteurLogo from '@/assets/prometteur-logo.png';
+import kodediceLogo from '@/assets/kodedice-logo.png';
 
-interface PrometteurLogoProps {
+interface KodediceLogoProps {
   className?: string;
   size?: number;
   showText?: boolean;
 }
 
-export function PrometteurLogo({ className = '', size = 40, showText = true }: PrometteurLogoProps) {
+export function KodediceLogo({ className = '', size = 40, showText = false }: KodediceLogoProps) {
   return (
     <div className={`flex items-center gap-2 ${className}`}>
-      <img 
-        src={prometteurLogo} 
-        alt="Prometteur Solutions" 
-        width={size} 
+      <img
+        src={kodediceLogo}
+        alt="Kodedice"
+        width={size}
         height={size}
         className="object-contain"
       />
       {showText && (
-        <span className="text-xl font-bold tracking-wide text-sidebar-primary">PROMETTEUR</span>
+        <span className="text-xl font-bold tracking-wide text-sidebar-primary">KODEDICE</span>
       )}
     </div>
   );
 }
+
+// Backward compatible export
+export { KodediceLogo as PrometteurLogo };

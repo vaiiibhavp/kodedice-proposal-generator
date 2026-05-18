@@ -23,9 +23,9 @@ export function SignaturePad({ value, onChange, disabled = false, title = "Signa
   const [activeTab, setActiveTab] = useState<'image' | 'typed' | 'upload'>(value?.mode || 'image');
   const fileInputRef = useRef<HTMLInputElement>(null);
   
-  // Check if this is Prometteur company signature (show upload tab only for Prometteur)
-  const isPrometteurSignature = title.toLowerCase().includes('prometteur') || signerLabel.toLowerCase().includes('authorized');
-  const showUploadTab = isPrometteurSignature;
+  // Check if this is Kodedice company signature (show upload tab only for Kodedice)
+  const isKodediceSignature = title.toLowerCase().includes('kodedice') || signerLabel.toLowerCase().includes('authorized');
+  const showUploadTab = isKodediceSignature;
 
   useEffect(() => {
     const canvas = canvasRef.current;

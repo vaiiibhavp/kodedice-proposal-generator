@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import { PrometteurLogo } from '@/components/PrometteurLogo';
-import prometteurBuilding from '@/assets/prometteur-building.webp';
+import { KodediceLogo } from '@/components/PrometteurLogo';
+import kodediceBuilding from '@/assets/kodedice-building.webp';
 
 interface ProposalHeaderProps {
   title: string;
@@ -17,15 +17,15 @@ export function ProposalHeader({ title, clientName, presentedBy }: ProposalHeade
     <div className="space-y-0">
       {/* Hero Banner with Building Background */}
       <div className="relative h-64 md:h-80 overflow-hidden rounded-t-lg">
-        <img 
-          src={prometteurBuilding} 
-          alt="Prometteur Solutions Office" 
+        <img
+          src={kodediceBuilding}
+          alt="Kodedice Office"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center p-6">
-          <PrometteurLogo size={64} showText={true} className="mb-4" />
-          <p className="text-xs text-amber-400 uppercase tracking-[0.3em] font-medium mb-2">
+          <KodediceLogo size={160} showText={false} className="mb-4" />
+          <p className="text-xs text-primary uppercase tracking-[0.3em] font-medium mb-2">
             {t('header.buildAppHireTeam')}
           </p>
           <p className="text-white/80 text-sm">
@@ -41,7 +41,7 @@ export function ProposalHeader({ title, clientName, presentedBy }: ProposalHeade
         
         <div className="relative z-10">
           <div className="flex items-start gap-2 mb-6">
-            <div className="w-1.5 h-16 bg-amber-500 rounded-full" />
+            <div className="w-1.5 h-16 bg-primary rounded-full" />
             <div>
               <h1 className="text-4xl md:text-5xl font-bold text-foreground leading-tight whitespace-pre-line">
                 {t('header.projectProposal').replace(' ', '\n')}

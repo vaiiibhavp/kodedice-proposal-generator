@@ -278,14 +278,14 @@ export default function ProposalPreview() {
         <ProposalHeader
           title={proposal?.title || ""}
           clientName={client?.companyName}
-          presentedBy="Prometteur Solutions"
+          presentedBy="Kodedice"
         />
 
         <CardContent className="p-8 md:p-12 space-y-10 relative">
           {/* Company Overview */}
           {sections?.companyOverview && proposal?.companyOverview && (
             <section className="page-break-inside-avoid">
-              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-amber-500 pb-2">{t('proposal.companyOverview')}</h2>
+              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-primary pb-2">{t('proposal.companyOverview')}</h2>
               <div
                 className="prose page-break-wrapper page-break-inside-avoid prose-sm max-w-none text-foreground"
                 dangerouslySetInnerHTML={{ __html: getContent('companyOverview', proposal.companyOverview) }}
@@ -296,7 +296,7 @@ export default function ProposalPreview() {
           {/* Application Development Details */}
           {sections?.applicationDetails && proposal?.applicationDetails && (
             <section className="page-break-inside-avoid">
-              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-amber-500 pb-2">{t('proposal.applicationDevelopmentDetails')}</h2>
+              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-primary pb-2">{t('proposal.applicationDevelopmentDetails')}</h2>
               <div
                 className="prose prose-sm max-w-none text-foreground"
                 dangerouslySetInnerHTML={{ __html: getContent('applicationDetails', proposal.applicationDetails) }}
@@ -307,7 +307,7 @@ export default function ProposalPreview() {
           {/* Scope of Work */}
           {sections?.scopeOfWork && proposal?.scopeOfWork && (
             <section className="page-break-inside-avoid">
-              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-amber-500 pb-2">{t('proposal.scopeOfWork')}</h2>
+              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-primary pb-2">{t('proposal.scopeOfWork')}</h2>
               <div
                 className="prose prose-sm max-w-none text-foreground"
                 dangerouslySetInnerHTML={{ __html: getContent('scopeOfWork', proposal.scopeOfWork) }}
@@ -318,12 +318,12 @@ export default function ProposalPreview() {
           {/* Tech Stack & Estimation */}
           {sections?.techStackEstimation && (
             <section className="page-break-inside-avoid">
-              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-amber-500 pb-2">{t('proposal.techStackEstimation')}</h2>
+              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-primary pb-2">{t('proposal.techStackEstimation')}</h2>
 
               {/* Tech Stack */}
               <div className="space-y-6 mb-8">
                 {techStack?.frontend && (
-                  <div className="bg-muted/30 rounded-lg p-4">
+                  <div className="bg-primary/10 rounded-lg p-4">
                     <h3 className="font-bold text-sm uppercase tracking-wide text-foreground mb-2">{t('techStack.frontend')}</h3>
                     <div
                       className="prose prose-sm max-w-none"
@@ -332,7 +332,7 @@ export default function ProposalPreview() {
                   </div>
                 )}
                 {techStack?.backend && (
-                  <div className="bg-muted/30 rounded-lg p-4">
+                  <div className="bg-primary/10 rounded-lg p-4">
                     <h3 className="font-bold text-sm uppercase tracking-wide text-foreground mb-2">{t('techStack.backend')}</h3>
                     <div
                       className="prose prose-sm max-w-none"
@@ -341,7 +341,7 @@ export default function ProposalPreview() {
                   </div>
                 )}
                 {techStack?.database && (
-                  <div className="bg-muted/30 rounded-lg p-4">
+                  <div className="bg-primary/10 rounded-lg p-4">
                     <h3 className="font-bold text-sm uppercase tracking-wide text-foreground mb-2">{t('techStack.database')}</h3>
                     <div
                       className="prose prose-sm max-w-none"
@@ -350,7 +350,7 @@ export default function ProposalPreview() {
                   </div>
                 )}
                 {techStack?.ui_ux && (
-                  <div className="bg-muted/30 rounded-lg p-4">
+                  <div className="bg-primary/10 rounded-lg p-4">
                     <h3 className="font-bold text-sm uppercase tracking-wide text-foreground mb-2">{t('techStack.uiux')}</h3>
                     <div
                       className="prose prose-sm max-w-none"
@@ -379,7 +379,7 @@ export default function ProposalPreview() {
                       </thead>
                       <tbody>
                         {proposal?.techStackAndEstimation?.estimation?.map((milestone, index) => (
-                          <tr key={milestone.id} className={index % 2 === 0 ? 'bg-background' : 'bg-muted/30'}>
+                          <tr key={milestone.id} className={index % 2 === 0 ? 'bg-background' : 'bg-primary/10'}>
                             <td className="p-3 font-medium border-t border-border">
                               {milestone.milestone}
                             </td>
@@ -493,7 +493,7 @@ export default function ProposalPreview() {
           {/* Detailed Phase Breakdown */}
           {sections?.detailedPhaseBreakdown && proposal?.detailedPhaseBreakdown && (
             <section className="page-break-inside-avoid">
-              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-amber-500 pb-2">{t('proposal.detailedPhaseBreakdown')}</h2>
+              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-primary pb-2">{t('proposal.detailedPhaseBreakdown')}</h2>
               <div
                 className="prose prose-sm max-w-none text-foreground"
                 dangerouslySetInnerHTML={{ __html: getContent('detailedPhaseBreakdown', proposal.detailedPhaseBreakdown) }}
@@ -504,7 +504,7 @@ export default function ProposalPreview() {
           {/* Post Launch Support */}
           {sections?.postLaunchSupport && proposal?.postLaunchSupport && (
             <section className="page-break-inside-avoid">
-              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-amber-500 pb-2">{t('proposal.postLaunchSupport')}</h2>
+              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-primary pb-2">{t('proposal.postLaunchSupport')}</h2>
               <div
                 className="prose prose-sm max-w-none text-foreground"
                 dangerouslySetInnerHTML={{ __html: getContent('postLaunchSupport', proposal.postLaunchSupport) }}
@@ -515,7 +515,7 @@ export default function ProposalPreview() {
           {/* Ongoing Maintenance and Support */}
           {sections?.ongoingMaintenanceAndSupport && proposal?.ongoingMaintenanceAndSupport && (
             <section className="page-break-inside-avoid">
-              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-amber-500 pb-2">{t('proposal.ongoingMaintenanceSupport')}</h2>
+              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-primary pb-2">{t('proposal.ongoingMaintenanceSupport')}</h2>
               <div
                 className="prose prose-sm max-w-none text-foreground"
                 dangerouslySetInnerHTML={{ __html: getContent('ongoingMaintenanceAndSupport', proposal.ongoingMaintenanceAndSupport) }}
@@ -527,19 +527,19 @@ export default function ProposalPreview() {
           {/* Project Team */}
           {sections?.projectTeam && proposal?.team && proposal.team.length > 0 && (
             <section className="page-break-inside-avoid">
-              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-amber-500 pb-2">{t('proposal.projectTeam')}</h2>
+              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-primary pb-2">{t('proposal.projectTeam')}</h2>
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                 {proposal.team.map((member) => (
-                  <div key={member.id} className="bg-muted/30 rounded-xl p-6 text-center hover:shadow-md transition-shadow">
+                  <div key={member.id} className="bg-primary/10 rounded-xl p-6 text-center hover:shadow-md transition-shadow">
                     {member.avatar ? (
                       <img
                         src={member.avatar}
                         alt={member.name}
-                        className="h-20 w-20 rounded-full object-cover mx-auto mb-4 ring-4 ring-amber-500/20"
+                        className="h-20 w-20 rounded-full object-cover mx-auto mb-4 ring-4 ring-primary/20"
                       />
                     ) : (
-                      <div className="h-20 w-20 rounded-full bg-amber-500/10 flex items-center justify-center mx-auto mb-4 ring-4 ring-amber-500/20">
-                        <span className="text-amber-600 font-bold text-3xl">
+                      <div className="h-20 w-20 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4 ring-4 ring-primary/20">
+                        <span className="text-primary font-bold text-3xl">
                           {member.name.charAt(0).toUpperCase()}
                         </span>
                       </div>
@@ -551,7 +551,7 @@ export default function ProposalPreview() {
                         href={member.linkedinUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1 text-sm text-amber-600 hover:underline font-medium"
+                        className="inline-flex items-center gap-1 text-sm text-primary hover:underline font-medium"
                       >
                         <Linkedin className="h-4 w-4" />
                         {t('common.linkedin')}
@@ -566,7 +566,7 @@ export default function ProposalPreview() {
           {/* Deployment Structure */}
           {sections?.deploymentStructure && proposal?.deploymentStructure && (
             <section className="page-break-inside-avoid">
-              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-amber-500 pb-2">{t('proposal.deploymentStructure')}</h2>
+              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-primary pb-2">{t('proposal.deploymentStructure')}</h2>
               <div
                 className="prose prose-sm max-w-none text-foreground"
                 dangerouslySetInnerHTML={{ __html: getContent('deploymentStructure', proposal.deploymentStructure) }}
@@ -577,7 +577,7 @@ export default function ProposalPreview() {
           {/* Source Code Ownership */}
           {sections?.sourceCodeOwnership && proposal?.sourceCodeOwnership && (
             <section className="page-break-inside-avoid">
-              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-amber-500 pb-2">{t('proposal.sourceCodeOwnership')}</h2>
+              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-primary pb-2">{t('proposal.sourceCodeOwnership')}</h2>
               <div
                 className="prose prose-sm max-w-none text-foreground"
                 dangerouslySetInnerHTML={{ __html: getContent('sourceCodeOwnership', proposal.sourceCodeOwnership) }}
@@ -588,7 +588,7 @@ export default function ProposalPreview() {
           {/* Termination & Exit */}
           {sections?.terminationAndExit && proposal?.terminationAndExit && (
             <section className="page-break-inside-avoid">
-              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-amber-500 pb-2">{t('proposal.terminationExit')}</h2>
+              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-primary pb-2">{t('proposal.terminationExit')}</h2>
               <div
                 className="prose prose-sm max-w-none text-foreground"
                 dangerouslySetInnerHTML={{ __html: getContent('terminationAndExit', proposal.terminationAndExit) }}
@@ -599,7 +599,7 @@ export default function ProposalPreview() {
           {/* Invoice Terms */}
           {sections?.invoiceTerms && (
             <section className="page-break-inside-avoid">
-              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-amber-500 pb-2">{t('proposal.invoiceTerms')}</h2>
+              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-primary pb-2">{t('proposal.invoiceTerms')}</h2>
               {proposal?.invoiceTerms ? (
                 <div
                   className="prose prose-sm max-w-none text-foreground"
@@ -616,8 +616,8 @@ export default function ProposalPreview() {
 
           {/* Terms & Conditions */}
           {sections?.termsAndConditions && (
-            <section className="page-break-inside-avoid border-t-2 border-amber-500 pt-8">
-              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-amber-500 pb-2">{t('proposal.termsConditions')}</h2>
+            <section className="page-break-inside-avoid border-t-2 border-primary pt-8">
+              <h2 className="text-2xl font-bold mb-6 text-foreground border-b-2 border-primary pb-2">{t('proposal.termsConditions')}</h2>
               {proposal?.termsAndConditions ? (
                 <div
                   className="prose prose-sm max-w-none text-foreground"
@@ -634,11 +634,11 @@ export default function ProposalPreview() {
 
           {/* Signature */}
           {sections.signature && (
-            <section className="page-break-inside-avoid border-t-2 border-amber-500 pt-8">
+            <section className="page-break-inside-avoid border-t-2 border-primary pt-8">
               <h2 className="text-2xl font-bold mb-6 text-foreground">{t('proposal.signatures')}</h2>
               <div className="grid md:grid-cols-2 gap-8">
-                {/* Prometteur Solutions Signature */}
-                <div className="bg-muted/30 rounded-xl p-6">
+                {/* Kodedice Signature */}
+                <div className="bg-primary/10 rounded-xl p-6">
                   <p className="text-sm font-bold text-foreground mb-4 uppercase tracking-wide">{t('signature.forPrometteur')}</p>
                   {proposal?.signatures?.company ? (
                     <div className="bg-background rounded-lg p-4 border">
@@ -673,7 +673,7 @@ export default function ProposalPreview() {
                 </div>
 
                 {/* Client Signature */}
-                <div className="bg-muted/30 rounded-xl p-6">
+                <div className="bg-primary/10 rounded-xl p-6">
                   <p className="text-sm font-bold text-foreground mb-4 uppercase tracking-wide">{t('signature.for')} {client?.companyName || 'Client'}</p>
                   {(proposal?.signatures?.client || proposal?.clientSignature) ? (
                     <div className="bg-background rounded-lg p-4 border">
