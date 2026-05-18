@@ -18,7 +18,7 @@ export default defineConfig(({ mode }) => ({
   preview: {
     host: true,
     allowedHosts: [
-      'https://proposals.kodedice.com',
+      'proposals.kodedice.com',
     ],
   },
 }));
