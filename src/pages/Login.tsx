@@ -63,7 +63,7 @@ export default function Login() {
       <Card className="w-full max-w-md shadow-xl">
         <CardHeader className="text-center space-y-4">
           <div className="flex justify-center">
-            <PrometteurLogo size={48} />
+            <PrometteurLogo size={120} />
           </div>
           <div>
             <CardTitle className="text-2xl">Admin Login</CardTitle>
@@ -86,7 +86,7 @@ export default function Login() {
                 <Input
                   id="email"
                   type="email"
-                  placeholder="admin@prometteur.com"
+                  placeholder="admin@kodedice.com"
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
                   className="pl-10"

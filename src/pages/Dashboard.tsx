@@ -33,7 +33,7 @@ export default function Dashboard() {
           {/* <h1 className="text-3xl font-bold tracking-tight">Dashboard</h1> */}
 
           <h1 className="text-2xl sm:text-3xl font-bold tracking-tight">Dashboard</h1>
-          <p className="text-muted-foreground">Welcome to Prometteur Solutions</p>
+          <p className="text-muted-foreground">Welcome to Kodedice</p>
         </div>
          {/* <Button asChild> */}
         <Button asChild className="w-full sm:w-auto">

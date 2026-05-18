@@ -58,7 +58,7 @@ const defaultTechStack: TechStackCategory = {
   ui_ux: '',
 };
 
-const defaultPostLaunchSupport = `<p>When we hit the launch button, it doesn't mean we're done. Prometteur is always in the wings to guide you through the rough waters of launch planning and post-launch consulting, hosting, and maintenance.</p>
+const defaultPostLaunchSupport = `<p>When we hit the launch button, it doesn't mean we're done. Kodedice is always in the wings to guide you through the rough waters of launch planning and post-launch consulting, hosting, and maintenance.</p>
 <table>
   <thead>
     <tr>
@@ -126,12 +126,12 @@ const defaultTermsAndConditions = `<ul>
   <li><strong>Password Management:</strong>
     <ul>
       <li>Upon project completion and access delivery, clients must immediately change all passwords.</li>
-      <li>Prometteur Solutions will not be responsible for any issues post-delivery unless an Annual Maintenance Contract (AMC) is in place.</li>
+      <li>Kodedice will not be responsible for any issues post-delivery unless an Annual Maintenance Contract (AMC) is in place.</li>
     </ul>
   </li>
   <li><strong>Client-Induced Changes:</strong>
     <ul>
-      <li>Any major changes made by the client to the website or app without notifying Prometteur Solutions will be the client's full responsibility for any resulting issues.</li>
+      <li>Any major changes made by the client to the website or app without notifying Kodedice will be the client's full responsibility for any resulting issues.</li>
     </ul>
   </li>
   <li><strong>Asset Provision:</strong>
@@ -170,9 +170,9 @@ const defaultTermsAndConditions = `<ul>
 <p><em>By adhering to these guidelines, we ensure smooth project execution and long-term support for your applications and systems.</em></p>`;
 
 const defaultContactUs = `<h2>Contact Us</h2>
-<p><strong>Website:</strong> www.prometteursolutions.com</p>
+<p><strong>Website:</strong> www.kodedice.com</p>
 <p><strong>Phone:</strong> +91 8087555678</p>
-<p><strong>E-mail:</strong> sales@prometteursolutions.com</p>
+<p><strong>E-mail:</strong> sales@kodedice.com</p>
 <p><strong>HQ Address:</strong> Office no. 2228, 2nd Floor, J.K Infotech, Hinjewadi - Phase 1, Near Ruby Hall Clinic, Pune - 411057</p>`;
 
 const defaultScopeOfWork = `<h3>01 Activities and Responsibilities</h3>
@@ -393,7 +393,7 @@ const defaultSourceCodeOwnership = `<p>Upon full payment of all project invoices
 <ul>
   <li><strong>100% of the source code, documentation, builds, and deployment scripts</strong> will be handed over to the client.</li>
   <li>The client will have <strong>full rights to use, modify, extend, and host</strong> the platform without limitations.</li>
-  <li><strong>Prometteur Solutions will retain no claim or ownership</strong> over the delivered software.</li>
+  <li><strong>Kodedice will retain no claim or ownership</strong> over the delivered software.</li>
   <li>Any third-party libraries remain governed by their respective licenses.</li>
 </ul>
 <p><em>This ensures complete transparency and long-term independence for the client.</em></p>`;
@@ -1480,7 +1480,7 @@ export default function ProposalEditor() {
                 <SignaturePad
                   value={formData.signatures?.company}
                   onChange={(sig) => handleSignatureChange('company', sig)}
-                  title="Prometteur Solutions Pvt. Ltd."
+                  title="Kodedice"
                   signerLabel="Authorized Signatory Name"
                 />
               </div>

@@ -14,7 +14,7 @@ import {
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import { useState } from 'react';
-import { PrometteurLogo } from '@/components/PrometteurLogo';
+import { KodediceLogo } from '@/components/PrometteurLogo';
 import { useAuth } from '@/hooks/useAuth';
 import { toast } from 'sonner';
 
@@ -71,8 +71,8 @@ export function Sidebar() {
       )}>
         <div className="flex h-full flex-col">
           {/* Logo */}
-          <div className="flex h-16 items-center border-b border-sidebar-border px-4">
-            <PrometteurLogo size={32} />
+          <div className="flex h-24 items-center border-b border-sidebar-border px-4">
+            <KodediceLogo size={100} />
           </div>
 
           {/* Navigation */}

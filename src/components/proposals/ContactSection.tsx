@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Globe, Phone, Mail, MapPin } from 'lucide-react';
-import prometteurBuilding from '@/assets/prometteur-building.webp';
+import kodediceBuilding from '@/assets/kodedice-building.webp';
 
 export function ContactSection() {
   const { t } = useTranslation();
@@ -17,9 +17,9 @@ export function ContactSection() {
         <div className="max-w-lg mx-auto">
           {/* Building Image with Rounded Border */}
           <div className="rounded-xl overflow-hidden border-4 border-muted shadow-md mb-8">
-            <img 
-              src={prometteurBuilding} 
-              alt="Prometteur Solutions Office Building" 
+            <img
+              src={kodediceBuilding}
+              alt="Kodedice Office Building"
               className="w-full h-auto object-contain"
             />
           </div>
@@ -27,18 +27,18 @@ export function ContactSection() {
           {/* Contact Details - Aligned with Image */}
           <div className="space-y-5">
             <div className="flex items-start gap-4">
-              <div className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center flex-shrink-0">
-                <Globe className="h-5 w-5 text-amber-600" />
+              <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                <Globe className="h-5 w-5 text-primary" />
               </div>
               <div>
                 <p className="text-sm font-semibold text-foreground mb-0.5">{t('contact.website')}</p>
-                <a 
-                  href="https://www.prometteursolutions.com" 
-                  target="_blank" 
+                <a
+                  href="https://www.kodedice.com"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
-                  www.prometteursolutions.com
+                  www.kodedice.com
                 </a>
               </div>
             </div>
@@ -59,11 +59,11 @@ export function ContactSection() {
               </div>
               <div>
                 <p className="text-sm font-semibold text-foreground mb-0.5">{t('contact.email')}</p>
-                <a 
-                  href="mailto:sales@prometteursolutions.com"
+                <a
+                  href="mailto:sales@kodedice.com"
                   className="text-sm text-muted-foreground hover:text-primary transition-colors underline"
                 >
-                  sales@prometteursolutions.com
+                  sales@kodedice.com
                 </a>
               </div>
             </div>
